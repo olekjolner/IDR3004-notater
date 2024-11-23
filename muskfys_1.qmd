@@ -1,0 +1,200 @@
+---
+title: "Muskelfysiologi I"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+![Muskelens bestanddeler](bilder/muscle.jpg){width=80% #fig-muskel}
+
+
+## Hva er en muskel?
+
+* Kollagenfibre og bindevev
+  * Beskrivelse: Muskelcellen er omringet av bindevev som inneholder kollagenfibre. Dette vevet er viktig for å gi støtte og beskyttelse til muskelcellene. Det danner også de ytre lagene av muskelen (som epimysium, perimysium og endomysium) (@fig-struct).
+  
+![Epimysium, perimysium og endomysium](bilder/epi_peri_endo.jpg){width=50% fig-align="left" #fig-struct}
+
+* Basalmembran
+  * Beskrivelse: Basalmembranen er et lag av ekstracellulær matriks som omgir muskelfiberen og er viktig for strukturell støtte og kommunikasjon mellom muskelcellen og det omkringliggende bindevevet.
+  
+* Sarkolemma/myolemma
+  * Beskrivelse: Sarkolemma er cellemembranen til muskelcellen (muskelfiberen). Den omgir hele muskelfiberen og beskytter innholdet, samtidig som den fungerer som en barriere for ioner og andre molekyler. Den er også ansvarlig for å motta nerveimpulser som får muskelen til å trekke seg sammen.
+  
+![Sarkolemma, sarkoplasma, mitokondrier, myofibriller og SR](bilder/sarcoplasm.png){#fig-sarco width=40% fig-align="left"}
+  
+* Sarkoplasma
+  * Beskrivelse: Sarkoplasma er cytoplasmaet i muskelcellen, og det er her flere av cellens viktige prosesser skjer. Det inneholder blant annet myoglobin (som lagrer oksygen) og glykogen (som er en energireserve).
+
+* Myofibriller
+  * Beskrivelse: Myofibriller er de lange, trådformede strukturene i muskelcellen som er ansvarlige for muskelens kontraksjon. De består av repeterende enheter kalt sarkomerer, som inneholder de kontraktile proteinene aktin og myosin.
+
+* Sarkomer
+  * Beskrivelse: Sarkomeren er den minste funksjonelle enheten i en muskel og er den strukturen som faktisk utfører kontraksjonen. Den består av et arrangert mønster av aktin og myosin.
+
+* Sarkoplasmisk retikulum (SR. Se @fig-sarco)
+  * Beskrivelse: Sarkoplasmisk retikulum er et spesialisert nettverk av membranøse kanaler i muskelcellen som lagrer kalsiumioner. Når en nerveimpuls når muskelen, frigjøres kalsiumioner fra det sarkoplasmatiske retikulumet, som trigger kontraksjonen ved å regulere interaksjonen mellom aktin og myosin.
+  
+* T-tubuli (transversale tubuli)
+  * Beskrivelse: T-tubuli er rørformede utvidelser av sarkolemma som strekker seg dypt inn i muskelcellen. De er viktige for å overføre elektriske impulser fra overflaten av muskelcellen til de indre delene, slik at hele muskelfiberen kan kontrahere samtidig.
+  
+* Mitokondrier
+  * Beskrivelse: Mitokondriene er cellens "kraftverk", som produserer energi i form av ATP (adenosintrifosfat) gjennom celleånding. Muskelceller, spesielt i skjelettmuskulaturen, har mange mitokondrier for å imøtekomme det høye energibehovet som kreves under muskelarbeid.
+  
+* Myonuklei
+  * Beskrivelse: Muskelceller, spesielt skjelettmuskulatur, er multinucleate, noe som betyr at de har flere kjerner. Myonuklei ligger på utsiden av myofibrillene, under sarkolemmaen, og styrer cellefunksjoner som proteinsyntese og cellemetabolisme.
+  
+* Satellittceller
+  * Beskrivelse: Satellittceller er stamceller som ligger mellom sarkolemma og basalmembranen. De spiller en viktig rolle i muskelreparasjon og -vekst ved å bidra med nye myonuklei hvis muskelen er skadet eller under trening.
+  
+* Kontraktile proteiner
+  * Myosin
+    * Tykke filamenter som er ansvarlige for å trekke seg sammen og generere kraft under muskelkontraksjon.
+  
+  * Aktin
+    * Tynne filamenter som danner strukturer som interagerer med myosin for å muliggjøre muskelkontraksjon.
+
+  * Tropomyosin
+    * Et regulatorisk protein som dekker aktinfilamentene og hindrer myosin fra å binde seg til aktin når muskelen er i hvile.
+
+  * Troponin
+    * Et annet regulatorisk protein som er knyttet til tropomyosin og hjelper til med å regulere muskelkontraksjon ved å binde kalsiumioner, som aktiverer samspillet mellom aktin og myosin.
+
+![Kontraktile proteiner](bilder/sarkomer.jpeg){width=50% fig-align="left"}
+
+
+### Myogenese
+* Celler som blir muskelceller stammer fra *mesoderm* i fosterlivet
+  * *Mesoderm* = brusk, bein, bindevev, blodårer, muskler, ekskresjonsorganer
+  * *Ektoderm* = hud, hår, negler, nervevev
+  * *Endoderm* = slimhinner, fordøyelseskanal, kjertler, lunger
+
+
+
+### Satelittceller
+* **Satellittceller** er stamceller som er viktige for muskelreparasjon og vekst. De bidrar til muskelens evne til å tilpasse seg fysisk belastning ved å legge til myonuklei og dermed støtte reparasjon og økt muskelmasse.
+* Satelittceller ligger mellom **sarkolemma** og **basalmembranen**
+  * Basalmembranen ligger utenfor sarkolemma og er en ekstracellulær matrix. Basalmembranen omgir heler muskelen, mens sarkolemma, som ligger på innsiden, er en membran som omgir muskelfiberen, se @fig-muskel og @fig-sarco. 
+  * Basalmembranen er viktig for stabiliteten og integriteten til muskelfiberen, og den gir også et sted for satellittceller å være plassert.
+* Muskelceller er **postmitotiske**
+  * I muskelvev refererer postmitotisk status til muskelens evne til å vokse eller reparere seg selv gjennom mekanismer som ikke involverer celledeling. I stedet for å dele seg, kan muskelceller øke i størrelse (hypertrofi), eller muskelvevet kan bruke satellittceller (som er en type stamcelle) til å hjelpe til med reparasjon og vekst. Kort sagt, postmitotisk betyr at muskelcellene ikke lenger deler seg, men har nådd et modent stadium der deres hovedfunksjon er å utføre arbeid og tilpasse seg belastning (for eksempel ved hypertrofi).
+* I korte trekk er **myonuklei** essensielle for muskelens vekst, funksjon og reparasjon, og deres tilstedeværelse gjør at muskelcellene kan håndtere de store kravene som kommer med belastning og aktivitet. 
+  * 1.4 - 1.7 % av myonuklei kommer fra satelittceller
+  * Myonuklei er cellekjerner som finnes i muskelfiberne (muskelcellene). Muskelceller er spesielle fordi de er flerkjernede — det vil si at de har flere kjerner per celle, i motsetning til de fleste andre celletyper som har bare én kjerne.
+
+![Myonuklei](bilder/myonuklei.jpg){width=65%}
+
+
+### Hva er en muskelcelle?
+
+
+
+### Hva er utenfor muskelcellen?
+
+
+
+### Hva er bestanddelene i en muskel?
+
+
+
+
+### Sirkulasjon i muskel
+
+
+
+
+### "Immunometabolism" i muskel
+
+![Abnormaliteter i muskelcelle](bilder/muscle_cell_abn.jpg){width=50%}
+
+
+### Fibertyper
+
+
+### Extracellulær matrix
+
+
+### Cytoskjellet
+* Stillas for sarkomerene
+* Costamerer
+* Intermediære filamenter
+
+
+
+### Sarkomeren
+
+![Sarkomeren i relaksert og kontrahert tilstand](bilder/sarkomer.jpeg){width=60%}
+
+* Oppbygging
+* Kontraktile proteiner
+* Myosin-assosierte proteiner
+* Aktin-assosierte proteiner
+* Andre
+* Titin
+* *Z-skive*-assosierte proteiner
+* Intermediære filamenter
+* Costamerproteiner
+
+
+### Eksitasjon - kontraksjon
+* Muskelfibre er innervert av motoriske nerveceller
+* Elektrisk signal
+* Kjemisk signal
+* Aksjonspotensial
+* 
+
+
+### Kraftutvikling
+
+
+
+## Form dikterer funksjon
+
+
+### Lengde/spenning
+
+### Grad av hastighet på aktiviering
+
+
+### Grad av hastighet på relaksjon
+
+* Kun avgjørende ved syklisk arbeid med høy frekvens
+
+
+### Kraft - hastighet (konsentrisk)
+
+
+### Kraft - hastighet (eksentrisk)
+
+
+### Sammenhengen mellom lengde, kraft og hastighet
+
+
+### Passiv stivhet
+
+
+### Muskeltverrsnitt og kraft
+
+
+### Antall sarkomerer i parallell
+
+
+### Muskelarkitektur
+
+* Fjærforming
+*  Seriekoblede muskelfibre
+
+### Ytre vektarmer
+
+
+### Indre vektarmer
+
+
+### Fyringsfrekvens
+
+
+
+### Rekrutteringshierarkiet
+
+
+
