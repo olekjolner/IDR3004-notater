@@ -1,0 +1,20 @@
+project: 
+  render: 
+    - "*.qmd"
+  type: book
+book:
+  title: "Notater IDR3004"
+  author: "Ole"
+  chapters:
+    - index.qmd
+    - 01-muskelfysiologi.qmd
+    - 02-muskelfysiologi.qmd
+    - referanser.qmd
+bibliography: 
+  - referanser/muskelfysiologi.bib
+csl: referanser/style.csl
+format: 
+  html:
+    theme: cosmo
+  pdf: 
+    documentclass: scrreprt

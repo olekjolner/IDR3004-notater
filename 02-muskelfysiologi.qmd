@@ -1,0 +1,78 @@
+---
+title: "Muskelfysiologi II"
+editor_options: 
+  chunk_output_type: console
+bibliography: referanser/muskelfysiologi.bib
+---
+
+
+## Muskulære tilpasninger til aktivitetsnivå
+
+## Eksperimentelle metoder for å studere hypertrofi
+
+## Eksperimentelle metoder for å studere atrofi
+
+## Proteinmetabolisme
+
+## Hva er protein turnover?
+
+## Måling av proteinmetabolisme
+
+## Tracerinkorporering
+
+## Deuterium
+
+## Translasjonell effektivitet + kapasitet =
+hypertrofi?
+
+## MPS vs adaptasjon
+
+## Hva bestemmer egenskapene til en celle?
+
+## Signalveier for muskelvekst
+
+## Ribosomer og muskelvekst
+
+## Hva aktiverer satellittceller?
+
+## Er satellittceller nødvendige for
+hypertrofi?
+
+## Bidrar satellittceller med mer enn
+hypertrofi?
+
+## Genetikk og muskelvekst
+
+## Epigenetikk og muskelvekst
+
+## Kjønnshormoner
+
+## Remodelering av extracellulærmatrix
+
+## Inflammasjon
+
+## Angiogenese
+
+## microRNA
+
+## Andre kule greier
+
+## Muskelproteolyse
+
+## Myostatin (MSTN)
+
+## Metodiske betraktninger
+
+## Adaptasjoner til styrketrening
+
+## Adaptasjon til redusert aktivitet
+
+## Artikler
+
+### Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@Egan2023]
+
+### Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@Roberts2023]
+
+
+
+
