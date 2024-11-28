@@ -9,9 +9,12 @@ book:
     - index.qmd
     - 01-muskelfysiologi.qmd
     - 02-muskelfysiologi.qmd
+    - 03-kardiovaskulære_systemet.qmd
+    - 04-utholdenhetstrening.qmd
     - referanser.qmd
 bibliography: 
   - referanser/muskelfysiologi.bib
+  - referanser/kardio.bib
 csl: referanser/style.csl
 format: 
   html:

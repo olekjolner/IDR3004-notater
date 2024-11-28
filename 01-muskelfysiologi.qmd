@@ -33,8 +33,6 @@ bibliography: referanser/muskelfysiologi.bib
     -   Beskrivelse: T-tubuli er rørformede utvidelser av sarkolemma som strekker seg dypt inn i muskelcellen. De er viktige for å overføre elektriske impulser fra overflaten av muskelcellen til de indre delene, slik at hele muskelfiberen kan kontrahere samtidig.
 -   Mitokondrier
     -   Beskrivelse: Mitokondriene er cellens "kraftverk", som produserer energi i form av ATP (adenosintrifosfat) gjennom celleånding. Muskelceller, spesielt i skjelettmuskulaturen, har mange mitokondrier for å imøtekomme det høye energibehovet som kreves under muskelarbeid.
-
-
 -   Myonuklei
     -   Beskrivelse: Muskelceller, spesielt skjelettmuskulatur, er multinukleære, noe som betyr at de har flere kjerner. Myonuklei ligger på utsiden av myofibrillene, under sarkolemmaen, og styrer cellefunksjoner som proteinsyntese og cellemetabolisme.
 -   I korte trekk er **myonuklei** essensielle for muskelens vekst, funksjon og reparasjon, og deres tilstedeværelse gjør at muskelcellene kan håndtere de store kravene som kommer med belastning og aktivitet.
@@ -156,7 +154,6 @@ bibliography: referanser/muskelfysiologi.bib
 -   Costamerer
 -   Intermediære filamenter
 
-
 ### Sarkomeren
 
 ![Sarkomeren i relaksert og kontrahert tilstand](bilder/sarkomer.jpeg){width="60%"}
@@ -184,13 +181,21 @@ bibliography: referanser/muskelfysiologi.bib
 
 ### Lengde/spenning
 
+-   Kan endres på muskelnivå, ikke på sarkomernivå
+    -   Flere sarkomerer i en serie
+-   mindre viktig ved høyere hastigheter
+
 ### Grad av hastighet på aktiviering
+
+-   Konsentrasjon av $Ca^{2+}$ regulerer interaksjonen mellom aktin og myosin
 
 ### Grad av hastighet på relaksjon
 
 -   Kun avgjørende ved syklisk arbeid med høy frekvens
 
 ### Kraft - hastighet (konsentrisk)
+
+![Kraft-hastighet](bilder/force-velocity.png){width=70% fig-align="left"}
 
 ### Kraft - hastighet (eksentrisk)
 
@@ -200,16 +205,24 @@ bibliography: referanser/muskelfysiologi.bib
 
 ### Muskeltverrsnitt og kraft
 
+-   Flere fibre = mer kraft
+    -   Flere kryssbroer/flere sarkomerer = mer kraft
+
 ### Antall sarkomerer i parallell
+
+-   Elder personer, typisk stor forskjell mpå fibre
+-   Etter trening typisk mer homogene fibre (reduksjon i atrofi)
 
 ### Muskelarkitektur
 
 -   Fjærforming
 -   Seriekoblede muskelfibre
+-   Fysiologisk og anatomisk tverrsnitt
 
 ### Ytre vektarmer
 
 ### Indre vektarmer
+* Distanse fra omdreningspunkt (ledd), til muskelens kraftlinje over ledd
 
 ### Fyringsfrekvens
 
