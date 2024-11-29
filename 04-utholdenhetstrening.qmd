@@ -1,0 +1,6 @@
+---
+title: "Tilpasninger til utholdenhetstrening"
+editor_options: 
+  chunk_output_type: console
+bibliography: referanser/utholdenhet.bib
+---

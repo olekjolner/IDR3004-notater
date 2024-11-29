@@ -6,38 +6,5 @@ bibliography: referanser/kardio.bib
 ---
 
 ![Det kardiovaskulære systemet](bilder/kardiovask_syst.jpg){width=80%}
-## Overordnet oversikt
 
-Det kardiovaskulære systemet spiller en fundamental rolle i kroppens fysiologiske respons på fysisk aktivitet, og dets tilpasning til trening er en essensiell komponent for å forstå fysiologien bak aerob og anaerob utholdenhet, samt det totale treningsutbyttet. Systemet består av hjertet, blodårene og blodet, og deres samarbeid er avgjørende for effektiv oksygentransport, næringsstofftilførsel og avfallsfjerning under og etter fysisk anstrengelse.
 
-### Hjertets rolle i trening
-
-Hjertet, en muskulær pumpe bestående av fire kamre, er i stand til å tilpasse seg intensiteten av fysisk aktivitet ved å øke hjertets slagvolum, altså mengden blod som pumpes per slag, og hjertefrekvensen, antall slag per minutt. Under utholdenhetstrening, som løping eller sykling, vil hjertet gradvis bli mer effektivt, noe som fører til en høyere slagvolum og lavere hvilepuls over tid. Denne tilpasningen skyldes økt venøs retur av blod (fra periferien tilbake til hjertet), bedre kontraktilitet av hjertemuskelen, og større hjertemuskelfiberstørrelse, som alle fører til økt kapasitet for blodpumping.
-
-### Blodårenes tilpasning
-
-Blodårene, inkludert arterier, vener og kapillærer, gjennomgår flere strukturelle og funksjonelle endringer ved trening. Arteriene, som fører blod bort fra hjertet, blir mer elastiske og i stand til å dilatere (utvide seg) for å håndtere økt blodvolum og trykk under aktivitet. Dette gjør at blodstrømmen til arbeidende muskler blir mer effektiv, og oksygentransporten til vevet forbedres. Kapillærene, som er de minste blodårene, opplever en økning i antall og tetthet, noe som gir bedre mikrosirkulasjon og dermed forbedret oksygen- og næringsstoffutveksling på cellulært nivå.
-
-Venesystemet, som frakter oksygenfattig blod tilbake til hjertet, har også en viktig rolle i å returnere blodet ved hjelp av venepumper (som aktiveres under muskelkontraksjon), og dermed opprettholde effektiv blodgjenvinning. Under trening øker blodstrømmen i venene, og blodvolumet i systemet justeres for å møte kroppens økte behov for oksygen og næringsstoffer.
-
-### Blodets rolle under trening
-
-Blodet, som består av plasma, røde blodceller, hvite blodceller og blodplater, er essensielt for transport av oksygen, næringsstoffer, hormoner og avfallsprodukter. De røde blodcellene, som inneholder hemoglobin, er ansvarlige for oksygenbæring fra lungene til musklene og andre vev. Under trening øker hemoglobinnivået gradvis som en tilpasning til økt oksygenbehov, og kroppen blir mer effektiv i å utnytte tilgjengelig oksygen.
-
-Plasmaet, som utgjør den væskebaserte delen av blodet, er avgjørende for å opprettholde blodvolumet under trening og for å transportere næringsstoffer og avfallsprodukter. Under utholdenhetstrening kan plasmaets volum øke, noe som forbedrer den kardiovaskulære kapasiteten og reduserer risikoen for dehydrering under intens aktivitet. 
-
-Videre spiller de hvite blodcellene en rolle i immunforsvaret, og treningsinduserte endringer i blodcellenes sammensetning kan påvirke kroppens evne til å respondere på infeksjoner, spesielt under lange og intense treningsøkter. Blodplater, som er ansvarlige for blodkoagulering, kan også tilpasse seg og støtte raskere restitusjon etter fysiske belastninger.
-
-### Kardiovaskulær tilpasning ved trening
-
-De tilpasningene som skjer i det kardiovaskulære systemet ved regelmessig trening, påvirker både hvile- og arbeidsforhold. Økt slagvolum, bedre kapillarisering, og forbedret blodgassutveksling gjør at kroppen kan levere mer oksygen og næringsstoffer til arbeidende muskler, samtidig som avfallsstoffer som karbondioksid fjernes mer effektivt. Denne forbedringen i systemets kapasitet fører til en mer økonomisk energiutnyttelse og reduserer belastningen på kroppen under aktivitet.
-
-I tillegg til de fysiologiske tilpasningene som skjer over tid, kan trening også påvirke kardiovaskulær respons i akutte faser. Under høyintensiv trening vil det kardiovaskulære systemet raskt tilpasse seg ved å øke hjertefrekvensen, vasodilatasjon (utvidelse av blodårene) i muskler og organer som er i aktivitet, og økt blodgjennomstrømning i de store muskelgruppene.
-
-### Forstyrrelser og utfordringer
-
-Treningens effekt på det kardiovaskulære systemet kan imidlertid utfordres av visse helseproblemer som høyt blodtrykk (hypertensjon), hjertesykdommer eller vaskulære lidelser. For eksempel kan en dårlig kontrollert hypertensjon føre til økt belastning på hjertet og blodårene, noe som kan begrense evnen til å tilpasse seg treningsbelastninger og øke risikoen for hjerte- og karsykdommer. Derfor er det avgjørende å ha et integrert treningsprogram som er tilpasset individets helsetilstand og fysiologiske kapasitet.
-
-Samtidig kan høyt intensiv trening, spesielt i form av ekstrem utholdenhetstrening, i noen tilfeller føre til negative effekter på kardiovaskulær helse, som økt hjertebelastning og potensielle langtidseffekter som kan resultere i strukturelle endringer i hjertet (for eksempel kardiomyopati). Dette understreker viktigheten av periodisering, restitusjon og individuell tilpasning av treningsprogrammet for å balansere treningsbelastning og unngå skade på det kardiovaskulære systemet.
-
-Samlet sett, ved å forstå de komplekse fysiologiske prosessene i det kardiovaskulære systemet og deres tilpasning til trening, kan vi optimere prestasjon, helse og langvarig velvære gjennom målrettet trening og livsstilsvalg.
