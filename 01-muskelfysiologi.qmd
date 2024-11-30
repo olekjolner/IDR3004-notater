@@ -67,19 +67,10 @@ bibliography: referanser/muskelfysiologi.bib
     -   Basalmembranen er viktig for stabiliteten og integriteten til muskelfiberen, og den gir også et sted for satellittceller å være plassert.
 -   Muskelceller er **postmitotiske**
     -   I muskelvev refererer postmitotisk status til muskelens evne til å vokse eller reparere seg selv gjennom mekanismer som ikke involverer celledeling. I stedet for å dele seg, kan muskelceller øke i størrelse (hypertrofi), eller muskelvevet kan bruke satellittceller (som er en type stamcelle) til å hjelpe til med reparasjon og vekst. Kort sagt, postmitotisk betyr at muskelcellene ikke lenger deler seg, men har nådd et modent stadium der deres hovedfunksjon er å utføre arbeid og tilpasse seg belastning (for eksempel ved hypertrofi).
--   
 
 ### Hva er en muskelcelle?
 
--   største tubulære cellene - opptil 20 cm lange og 10.000 $\mu m^{2}$
--   Multinukleære
--   70-85 % myofibriller
--   5-10 % mitokondrielt og sarkoplasmatisk retikulum
-    -   Mitokondrier er plassert nært myofibrillene og der det er størst behov for rask energi. Større konsentrasjon av mitokondrier i muskulatur der det er større krav til okygenering (aerobe prosesser), type I fiber.
--   Sarkoplasma (cytoplasma)
-    -   Inneholder enzymer og molekyler som er viktig for produksjon av ATP
-    -   SR - sarkoplasmatisk retikulum. Lagrer og frigjør kalsiumioner ($Ca^{2+}$)
--   Sarcolemma - transportproteiner, ligand-reseptorer (mottar stimuli utenfra), ankring av myofibriller for kraftoverføring
+En muskelcelle, også kjent som en **myocyt**, er en av de største cellene i kroppen og kan være opptil 20 cm lange og 10 000 ganger større enn vanlige celler. Muskelcellen er **multinukleær**, noe som betyr at den har flere cellekjerner. Omtrent 70-85 % av muskelcellens volum består av **myofibriller**, som er de kontraktile enhetene som muliggjør muskelsammentrekning. Muskelcellen inneholder også **mitokondrier** (5-10 %), som er plassert nær myofibrillene for å møte det raske energibehovet under kontraksjon, spesielt i type I muskelfibre som er mer avhengige av aerob metabolisme. **Sarkoplasma** er cellens cytoplasma og inneholder enzymer og molekyler som er essensielle for ATP-produksjon. **Sarkoplasmatisk retikulum (SR)** lagrer og frigjør **kalsiumioner**, som er viktige for muskelsammentrekning. **Sarcolemma**, cellemembranen, har transportproteiner og ligand-reseptorer som mottar stimuli og hjelper til med å ankre myofibrillene for kraftoverføring.
 
 ### Hva er utenfor muskelcellen?
 
@@ -95,35 +86,17 @@ bibliography: referanser/muskelfysiologi.bib
 
 ### Hva er bestanddelene i en muskel?
 
--   Nerver
--   Blodårer
--   Immunceller
--   Bindevev/extracellulær matrix
--   Muskelfibre
+En muskel består av flere komponenter som samarbeider for å muliggjøre kontraksjon og bevegelse. **Muskelfibre** (eller myocytter) er de primære kontraktile enhetene og inneholder myofibriller, som er sammensatt av aktin- og myosinfilamenter som medvirker i muskelsammentrekning. **Bindevev** (eller ekstracellulær matriks) gir strukturell støtte og festes muskelfibrene sammen, og omfatter kollagen og elastin. **Nerver** innerverer musklene og kontrollerer sammentrekningene ved å sende elektriske signaler til muskelfibrene via nevromuskulære synapser. **Blodårer** forsyner muskelen med oksygen og næringsstoffer, samtidig som de fjerner avfallsstoffer som CO~2~ og laktat. **Immunceller**, som makrofager, er til stede i muskelvevet for å delta i betennelsesresponser og reparasjon ved skade. Sammen utgjør disse komponentene et funksjonelt og dynamisk system som gjør bevegelse og muskelreparasjon mulig.
 
 ### Sirkulasjon i muskel
 
--   Stor nettverk av kapillærer.
-    -   Epitelceller
-    -   Pericytter
-    -   Glatte muskelceller
--   Blodstrøm reguleres av vasokonstriksjon
-    -   Vasokonstriktorer
-    -   Vasodilatorer
--   Angiogenese reguleres av VEGF (Vascular Endothelial Growth Factor).
-    -   Det er en viktig proteinfamilie som regulerer dannelsen av blodårer, en prosess kjent som angiogenese.
-    -   I konteksten av sirkulasjon i muskel, spiller VEGF en viktig rolle i å stimulere dannelsen av nye kapillærer, spesielt i vev som har høy metabolsk aktivitet eller som lider av oksygenmangel (hypoksi). Dette kan være spesielt relevant for muskelvev under trening eller etter skader.
-    -   VEGF påvirker endotelcellene (de cellene som kler innsiden av blodkar) ved å øke permeabiliteten deres og stimulere til celleproliferasjon, som gjør at blodkarene kan vokse og forgrene seg. VEGF har også en rolle i å regulere blodstrømmen i respons på fysiologiske behov, som under intens fysisk aktivitet, hvor det kan fremme økt blodtilførsel til musklene for å støtte deres oksygen- og næringsbehov.
+Sirkulasjonen i muskelvev er støttet av et tett nettverk av kapillærer som forsyner muskelfibrene med oksygen og næringsstoffer. Blodstrømmen reguleres gjennom mekanismer som **vasokonstriksjon**, hvor glatte muskelceller i blodkarene trekker seg sammen for å redusere blodtilførselen, samt **vasodilatasjon**, hvor blodkarene utvides for å øke blodstrømmen. **Vasokonstriktorer** og **vasodilatorer** påvirker disse prosessene, som er essensielle for å tilpasse blodstrømmen etter musklenes fysiologiske behov. **Angiogenese**, prosessen med dannelse av nye blodårer, reguleres av **VEGF** (Vascular Endothelial Growth Factor), som er avgjørende for å stimulere vekst og forgrening av kapillærer, spesielt i områder med høy metabolsk aktivitet eller oksygenmangel, som ved trening eller etter muskelsskader. VEGF øker permeabiliteten til endotelcellene og fremmer celleproliferasjon, hvilket sikrer tilstrekkelig blodtilførsel til musklene under intens aktivitet.
 
 ### "Immunometabolism" i muskel
 
 ![Abnormaliteter i muskelcelle](bilder/muscle_cell_abn.jpg){width="50%" fig-align="left"}
 
--   I et bredt perspektiv handler immunometabolisme i muskel om hvordan energibalanse, betennelse og immunrespons henger sammen. Dette samspillet er viktig for muskelhelse, regenerering, tilpasning til trening, og for å forstå sykdomsprosesser som involverer muskelatrofi eller betennelse.
--   Meget komplekst
-    -   IL-6 (Interleukin 6) er et viktig cytokin, som er et signalmolekyl som brukes av immunsystemet for å kommunisere og regulere ulike cellefunksjoner. IL-6 er en del av et bredt spekter av cytokiner som er involvert i immunresponsen, betennelse og cellevekst. (Cytokiner er små proteiner som fungerer som signalmolekyler i kroppen, og de er avgjørende for immunsystemets kommunikasjon og regulering av betennelse, immunrespons, og vevsreparasjon.)
-    -   Økt IL-6 ved trening øker glukoseopptak og virker anti-inflammatorisk
-    -   Kronisk økt IL-6 hemmer glukoseopptak og virker pro-inflammatorisk
+Immunometabolisme i muskelvev omhandler samspillet mellom energibalanse, betennelse og immunrespons, som er avgjørende for muskelhelse, regenerering, tilpasning til trening, samt for forståelsen av sykdommer som muskelatrofi eller betennelse. Dette er et komplekst system hvor cytokiner, som **IL-6 (Interleukin 6)**, spiller en nøkkelrolle. IL-6 er et signalmolekyl som regulerer immunsystemet, betennelse og cellevekst. Under trening øker nivåene av IL-6, noe som fremmer glukoseopptak og har en anti-inflammatorisk effekt, noe som støtter muskeltilpasning og energimetabolisme. På den annen side, ved kronisk økning av IL-6, som ofte sees ved langvarig betennelse, kan glukoseopptaket hemmes og det pro-inflammatoriske miljøet forverres, noe som kan bidra til muskelatrofi og andre sykdomstilstander.
 
 ### Fibertyper
 
@@ -131,105 +104,94 @@ bibliography: referanser/muskelfysiologi.bib
 
 -   I, IIa, IIx, IIb
 -   ca. 50/50 i vastus lateralis
--   
 
 ### Extracellulær matrix
 
--   Kort sagt fungerer den ekstracellulære matriksen som en dynamisk plattform som støtter muskelcellene, påvirker deres funksjon og bidrar til heling og reparasjon ved behov.
-    -   Strukturell integrasjon, støtte og struktur
-    -   Signaloverføring og tilpasning til belastning
-    -   Reparasjon ved skade
-    -   Integrasjon med senevev
-    -   Inflammatorisk regulering
--   Hyaluronsyre - "smøremiddel". Opprettholder fleksibilitet og bevegelighet i muskelvevet
--   fibronectin - "the master organizer"
--   reticulær lamina
--   fibrillære kollagener
--   basallamina
+Den **ekstracellulære matriksen (ECM)** er en dynamisk struktur som gir støtte og integrasjon til muskelcellene, og spiller en viktig rolle i reguleringen av muskelens funksjon, tilpasning til belastning, og reparasjon ved skade. Den bidrar til **strukturell integrasjon** og gir støtte til muskelvevet, samtidig som den muliggjør **signaloverføring** som påvirker celleaktivitet. ECM er også involvert i **helingsprosesser**, som ved muskelskader, og regulerer **inflammatoriske responser**. Viktige komponenter i ECM inkluderer **hyaluronsyre**, som fungerer som et "smøremiddel" og opprettholder fleksibilitet og bevegelighet i muskelvevet, samt **fibronectin**, som kalles "master organizer" på grunn av dens rolle i å binde sammen andre ECM-komponenter. **Retikulær lamina**, **fibrillære kollagener** og **basallamina** er andre nøkkelstrukturer som bidrar til styrke, fleksibilitet og stabilitet i vevet, og muliggjør integrasjon med senevev for effektiv kraftoverføring.
 
 ### Cytoskjellet
 
--   Cytoskjelettet samarbeider med ekstracellulær matriks (ECM) for å opprettholde cellens form og organisering i vev.
--   Stillas for sarkomerene
--   Costamerer
--   Intermediære filamenter
+**Cytoskjelettet** spiller en viktig rolle i samarbeid med **ekstracellulær matriks (ECM)** for å opprettholde cellens form og organisering i vev, spesielt i muskelceller. Cytoskjelettet fungerer som et intern stillas som gir strukturell støtte og stabilitet. I muskelceller er det spesielt viktig for organiseringen og funksjonen av **sarkomerene**, som er de kontraktile enhetene i muskelen. 
+
+**Costamerer** er spesifikke strukturer som kobler **sarkomerene** til **sarkolemma** (cellemembranen) og ECM, og sørger for kraftoverføring mellom muskelfibrene og bindevevet. De spiller en nøkkelrolle i muskelens mekaniske egenskaper og i tilpasningen til belastning. 
+
+**Intermediære filamenter**, som **desmin**, bidrar til stabiliteten til muskelcellene ved å organisere og forsterke cytoskjelettet, samtidig som de kobler sammen de kontraktile elementene i cellen og understøtter cellens integritet under mekanisk stress. Sammen gjør cytoskjelettet og ECM det mulig for muskelcellene å opprettholde struktur, utføre sammentrekning, og tilpasse seg endringer i belastning.
 
 ### Sarkomeren
 
 ![Sarkomeren i relaksert og kontrahert tilstand](bilder/sarkomer.jpeg){width="60%"}
 
--   Oppbygging
--   Kontraktile proteiner
--   Myosin-assosierte proteiner
--   Aktin-assosierte proteiner
--   Andre
--   Titin
--   *Z-skive*-assosierte proteiner
--   Intermediære filamenter
--   Costamerproteiner
+Muskelcellens struktur er kompleks og består av flere viktige komponenter som samarbeider for å muliggjøre muskelkontraksjon og opprettholde celleintegritet. Muskelcellen er organisert i **sarkomerer**, de kontraktile enhetene, som består av **aktin**- og **myosin**-filamenter. **Myosin**, et motorprotein, danner tverrbroer med aktin og er ansvarlig for kontraksjonen. **Aktin** danner tynne filamenter som interagerer med myosin for å skape muskelens bevegelse. Flere proteiner assosiert med disse filamentene bidrar til funksjon og stabilitet; for eksempel regulerer **myomesin** og **C-protein** myosin, mens **tropomyosin** og **cofilin** stabiliserer aktinfilamentene. Et annet viktig protein er **titin**, som fungerer som et passivt stivningsprotein og bidrar til å opprettholde struktur og elastisitet i sarkomerene. **Z-skive-assosierte proteiner** som **α-actinin** og **desmin** stabiliserer aktinfilamentene og sørger for at sarkomeren er intakt. **Intermediære filamenter**, som **desmin**, gir ytterligere støtte og binder de kontraktile enhetene sammen. Til slutt kobler **costamerproteiner**, som **dystrofin**, **vinculin**, og **talin**, sarkomerene til cellemembranen og ekstracellulær matriks (ECM), og er avgjørende for overføringen av kraft fra muskelfibrene til bindevevet og senevevet. Sammen muliggjør disse komponentene effektiv muskelkontraksjon, strukturell stabilitet og tilpasning til belastning og skade.
 
 ### Eksitasjon - kontraksjon
 
--   Muskelfibre er innervert av motoriske nerveceller
--   Elektrisk signal
--   Kjemisk signal
--   Aksjonspotensial
+Eksitasjon-kontraksjonprosessen i muskelceller starter med at **motoriske nerveceller** sender et **elektrisk signal** til muskelfibrene. Dette signalet overføres via en **synapse** (den neuromuskulære junksjonen) som frigjør et **kjemisk signal** i form av nevrotransmitteren **acetylkolin**. Når acetylkolin binder seg til reseptorer på muskelcellens membran (sarcolemma), utløses et **aksjonspotensial**. Dette aksjonspotensialet sprer seg over sarcolemma og ned i **t-tubuli**, hvor det påvirker det **sarkoplasmatisk retikulum** til å frigjøre **kalsiumioner**. Kalsiumet binder seg til **troponin**, som endrer formen på **tropomyosin**, og eksponerer bindingsstedene på **aktin** for **myosin**. Myosinfilamentene danner tverrbroer med aktin, og muskelkontraksjonen skjer ved at aktin og myosin glir forbi hverandre.
 
 ### Kraftutvikling
+
+Kraftutvikling i muskel skjer gjennom samspill mellom **myosin** og **aktin** i sarkomerene. Når et **aksjonspotensial** ankommer muskelfiberen, frigjøres **kalsiumioner** fra **sarkoplasmatisk retikulum**, som binder seg til **troponin** og endrer konformasjonen til **tropomyosin**. Dette eksponerer bindingsstedene på aktinfilamentene, og **myosin** kan danne **tverrbroer** med aktin. Ved **tverrbro-syklusen** trekker myosinfilamentene aktinfilamentene mot M-linjen, noe som skaper **muskelkontraksjon** og kraftutvikling. **Kraften** som genereres, er avhengig av antall **sarkomere** som er aktive samtidig (rekrutering), samt frekvensen av **aksjonspotensialer** (frekvensmodulasjon). Økt frekvens og rekruttering av motoriske enheter gir høyere muskelkraft. **Isometriske kontraksjoner** skjer uten lengdeendring i muskelen, mens **isotoniske kontraksjoner** gir bevegelse i muskelen med endring i lengde.
 
 ## Form dikterer funksjon
 
 ### Lengde/spenning
 
--   Kan endres på muskelnivå, ikke på sarkomernivå
-    -   Flere sarkomerer i en serie
--   mindre viktig ved høyere hastigheter
+**Lengde/spenning**-relasjonen i muskler refererer til forholdet mellom muskellengde og utviklet kraft. Dette forholdet kan endres på **muskelnivå**, men ikke på **sarkomernivå**, fordi antall **sarkomerer** i serie bestemmer muskelens totale lengde. Når muskelen strekkes, blir sarkomerene mer eller mindre overlappende, og dette påvirker effektiviteten av tverrbrodannelsen mellom **aktin** og **myosin**, som igjen påvirker kraftutviklingen. Ved lengre muskellengder (f.eks. ved maksimal strekking) reduseres overlappet, og mindre kraft utvikles. Ved kortere lengder kan filamentene komme i konflikt med hverandre, noe som også reduserer kraften. Ved **høyere hastigheter** av muskelsammentrekning blir **lengde/spenning**-relasjonen mindre viktig, da kraften som kan utvikles avtar med økende hastighet på grunn av de fysiologiske egenskapene ved muskelens kontraksjon og bevegelse.
 
 ### Grad av hastighet på aktiviering
 
--   Konsentrasjon av $Ca^{2+}$ regulerer interaksjonen mellom aktin og myosin
+**Grad av hastighet på aktivering** i muskler påvirkes sterkt av konsentrasjonen av **Ca²⁺**. Når et aksjonspotensial inntreffer, frigjøres Ca²⁺ fra **sarkoplasmatisk retikulum**, og økningen i Ca²⁺-konsentrasjonen regulerer interaksjonen mellom **aktin** og **myosin**. Ca²⁺ binder seg til **troponin**, et protein som endrer form og frigjør bindingsstedene på aktinfilamentene, slik at myosin kan danne tverrbroer med aktin og starte kontraksjonen. Høyere Ca²⁺-konsentrasjon øker hastigheten på **tverrbro-syklusen**, noe som fører til raskere og kraftigere kontraksjon. Når Ca²⁺-konsentrasjonen synker, for eksempel ved avslutning av aksjonspotensialet, blir interaksjonen mellom aktin og myosin redusert, og muskelen slapper av. Derfor er reguleringen av Ca²⁺-konsentrasjonen avgjørende for både hastigheten og kraften i muskelens respons.
 
 ### Grad av hastighet på relaksjon
 
--   Kun avgjørende ved syklisk arbeid med høy frekvens
+**Grad av hastighet på relaksjon** i muskler er særlig avgjørende under **syklisk arbeid med høy frekvens**, som for eksempel i aktiviteter som krever raske, repetitivt gjentatte bevegelser. Når aksjonspotensialene er svært hyppige, kan ikke Ca²⁺-konsentrasjonen i muskelen synke raskt nok til at muskelen rekker å slappe helt av mellom sammentrekningene. Dette resulterer i en økt **muskeltonus** og større kraftutvikling ved at muskelfibrene forblir delvis aktivert. Hvis relaksasjonen er langsom, kan muskelen oppleve en kumulativ effekt av kontraksjoner, noe som kan føre til muskelutmattelse. Rask relaksasjon er derfor nødvendig for å opprettholde effektiv og rytmisk muskelaktivitet ved høy frekvens, som er vanlig i aktiviteter som sprint, hopping eller rask utholdenhetstrening.
 
-### Kraft - hastighet (konsentrisk)
+### Kraft - hastighet (konsentrisk og eksentrisk)
 
 ![Kraft-hastighet](bilder/force-velocity.png){width=70% fig-align="left"}
+**Kraft-hastighet**-relasjonen i konsentrisk kontraksjon beskriver hvordan kraften som genereres av muskelen avtar når kontraksjonshastigheten øker. Under konsentrisk arbeid, hvor muskelen trekker seg sammen (f.eks. ved løfting av en vekt), får ikke **aktin** og **myosin** tid til å danne tverrbroer effektivt ved høy hastighet. Dette resulterer i at kraftutviklingen reduseres når hastigheten øker. Muskelens evne til å utvikle kraft er derfor større ved langsommere bevegelser enn ved raske bevegelser.
 
-### Kraft - hastighet (eksentrisk)
+I **eksentrisk kontraksjon**, hvor muskelen forlenges under belastning (f.eks. ved senking av en vekt), øker derimot kraften når hastigheten øker. Dette skjer fordi **myosin**-filamentene er mer i stand til å generere større kraft under strekking, spesielt når muskelen motstår ytre belastning. Eksentrisk arbeid er dermed mer effektivt i å utvikle høyere kraft enn konsentrisk arbeid, særlig ved høyere hastigheter. Denne forskjellen i kraftutvikling mellom konsentrisk og eksentrisk arbeid gjør at eksentrisk trening ofte brukes til å øke muskelstyrken.
+
 
 ### Sammenhengen mellom lengde, kraft og hastighet
 
+Sammenhengen mellom lengde, kraft og hastighet i muskler beskriver hvordan muskelens evne til å generere kraft påvirkes av muskellengde og kontraksjonshastighet. Når muskelen er i en optimal lengde, der sarkomerene har et ideelt overlapp mellom aktin og myosin, produseres maksimal kraft. Hvis muskelen er for lang eller for kort, reduseres kraften på grunn av mindre effektiv interaksjon mellom aktin og myosin.
+
 ### Passiv stivhet
+
+**Passiv stivhet** refererer til motstanden mot deformasjon i muskelen som ikke er relatert til aktiv muskelkontraksjon, men snarere til de strukturelle elementene i muskelen, som **bindevev**, **sarkomere proteiner** og **muskelens ekstracellulære matriks**. Denne stivheten oppstår når muskelen strekker seg uten at muskelfibrene er aktivt involvert i kontraksjon. Strukturer som **kollagenfibriller** i bindevevet og **titins** rolle i sarkomerene gir passiv motstand mot strekk. 
+
+Passiv stivhet blir særlig merkbar når muskelen er i en forlengelsesfase, og den motsetter seg ytterligere strekk. Denne motstanden er viktig for å beskytte muskelvevet mot overstrekk og skade. Passiv stivhet øker når muskelen blir mer strukket, og er en viktig faktor i **eksentrisk kontraksjon**, der muskelen forlenge aktivt under belastning, og gir ekstra motstand i tillegg til den kraften som genereres av de aktive **myosin**-og **aktin**-filamentene.
 
 ### Muskeltverrsnitt og kraft
 
--   Flere fibre = mer kraft
-    -   Flere kryssbroer/flere sarkomerer = mer kraft
+Muskeltverrsnitt og kraft er nært knyttet sammen. Jo større muskeltverrsnittet er, desto større potensial for kraftutvikling har muskelen. Dette skjer fordi flere muskelfibre i et større tverrsnitt betyr flere sarkomerer og dermed flere kryssbroer mellom aktin og myosin. Når disse tverrbroene dannes, utvikles kraft som genereres når myosinfilamentene glir langs aktinfilamentene. Økt antall sarkomerer i serie og parallelt gir muskelen et større potensial for å utvikle kraft, enten ved å trekke seg sammen (konsentrisk) eller motstå strekk (eksentrisk).
 
 ### Antall sarkomerer i parallell
 
--   Elder personer, typisk stor forskjell mpå fibre
--   Etter trening typisk mer homogene fibre (reduksjon i atrofi)
+Antall sarkomerer i parallell påvirker muskelens totale kraftutvikling. Når flere sarkomerer er organisert i parallell, kan muskelen utvikle mer kraft, ettersom flere myosin-og aktin-filamenter er tilgjengelige for tverrbrodannelse samtidig. Hos eldre personer kan det være en stor forskjell i størrelse og funksjon mellom muskelfibrene, med noen fibre som atrofierer (reduseres i størrelse) over tid, noe som kan føre til redusert muskelstyrke. Dette kan også føre til en mer ujevn fordeling av sarkomerer i parallell.
+
+Etter trening, spesielt styrketrening, skjer det en tilpasning der muskelfibrene blir mer homogene i størrelse og funksjon. Treningen kan føre til en økning i antall sarkomerer i parallell, noe som bidrar til økt muskelfiberstørrelse og forbedret muskelstyrke. 
 
 ### Muskelarkitektur
 
--   Fjærforming
--   Seriekoblede muskelfibre
--   Fysiologisk og anatomisk tverrsnitt
+**Muskelarkitektur** refererer til hvordan muskelfibrene er organisert, og dette påvirker både kraftutvikling og bevegelseshastighet. I **fjærformede** muskler (pennat struktur) er fibrene arrangert i en vinkel til muskelens akse, noe som gir høyere kraft, men lavere hastighet. Eksempler på dette er **quadriceps** (lårmuskelen) og **deltoideus** (skuldermuskelen). **Seriekoblede muskelfibre**, der fibrene er arrangert i serie, gir stor kraftutvikling og brukes i langsommere bevegelser. Et eksempel er **gastrocnemius** (leggmuskelen). For vurdering av kraft brukes **fysiologisk tverrsnitt** (fibrenes faktiske område), mens **anatomisk tverrsnitt** refererer til hele muskelens område.
 
-### Ytre vektarmer
+### Ytre vektarmer og Indre vektarmer
 
-### Indre vektarmer
-* Distanse fra omdreningspunkt (ledd), til muskelens kraftlinje over ledd
+**Ytre vektarmer** refererer til avstanden fra et omdreiningspunkt (ledd) til den eksterne lasten som muskelen må bevege. Denne avstanden påvirker hvor mye kraft som trengs for å flytte en gitt vekt. Jo lengre den ytre vektarmen er, desto mer kraft kreves fra muskelen for å løfte belastningen.
 
-### Fyringsfrekvens
+**Indre vektarmer** refererer til avstanden fra omdreiningspunktet (leddet) til muskelens kraftlinje, altså hvor muskelen er festet til beinet. Denne avstanden påvirker hvor effektivt muskelen kan generere kraft. Jo kortere den indre vektarmen er, desto mindre kraft er nødvendig for å bevege leddet. Generelt gir korte indre vektarmer raskere bevegelser, mens lange ytre vektarmer krever mer muskelkraft for å løfte eller bevege en belastning.
 
-### Rekrutteringshierarkiet
+
+### Fyringsfrekvens og Rekrutteringshierarkiet
+
+**Fyringsfrekvens** refererer til hvor raskt motoriske nevroner sender aksjonspotensialer til muskelfibrene de innerverer. En høy fyringsfrekvens fører til økt muskelaktivitet og større kraftutvikling, da flere aksjonspotensialer resulterer i en økning i kalciumkonsentrasjon i muskelen, som igjen fører til flere tverrbroer mellom aktin og myosin. Dette kan føre til tetanus, en vedvarende muskelkontraksjon ved høy frekvens. Fyringsfrekvensen er en viktig mekanisme for å justere kraftproduksjonen i muskelen.
+
+**Rekrutteringshierarkiet** beskriver rekrutteringen av motoriske enheter i en bestemt rekkefølge basert på behovet for kraft. Først rekrutteres de minste motoriske enhetene, som består av type I (langsomme) muskelfibre. Etter hvert som belastningen øker, rekrutteres større motoriske enheter med type II (raske) muskelfibre for å utvikle mer kraft. Dette hierarkiske systemet sikrer at muskelen bruker de mest energigjerrige fibrene først og rekrutterer større enheter ved behov for høyere kraft.
 
 ## Artikler
 
-### Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@Egan2023]
+* Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@Egan2023]
 
-### Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@Roberts2023]
+* Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@Roberts2023]

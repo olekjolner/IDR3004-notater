@@ -1,0 +1,27 @@
+---
+title: "Det kardiovaskulære systemet"
+editor_options: 
+  chunk_output_type: console
+bibliography: referanser/cardio.bib
+---
+
+![Det kardiovaskulære systemet](bilder/kardiovask_syst.jpg){width=80%}
+
+
+## Arterier
+
+
+### Aorta
+
+### Arterioler
+
+### Kapillærer
+
+![Arterier og vener](bilder/art.vein.png){width=60% fig-align="left"}
+
+
+## Vener
+
+### Vena cava
+
+### Perfiere, overfladiske, dype og pulmonale vener
