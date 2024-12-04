@@ -2,7 +2,7 @@
 title: "Muskelfysiologi I"
 editor_options: 
   chunk_output_type: console
-bibliography: referanser/muskelfysiologi.bib
+bibliography: referanser/muskfys.bib
 ---
 
 ![Muskelens bestanddeler](bilder/muscle.jpg){#fig-muskel width="80%"}
@@ -192,6 +192,6 @@ Etter trening, spesielt styrketrening, skjer det en tilpasning der muskelfibrene
 
 ## Artikler
 
-* Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@Egan2023]
+* Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@egan2023]
 
-* Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@Roberts2023]
+* Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@roberts2023]

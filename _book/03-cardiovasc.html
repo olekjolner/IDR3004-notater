@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -69,6 +89,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -152,17 +201,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#arterier" id="toc-arterier" class="nav-link active" data-scroll-target="#arterier"><span class="header-section-number">3.1</span> Arterier</a>
+  <li><a href="#hjertet" id="toc-hjertet" class="nav-link active" data-scroll-target="#hjertet"><span class="header-section-number">3.1</span> Hjertet</a>
   <ul class="collapse">
-  <li><a href="#aorta" id="toc-aorta" class="nav-link" data-scroll-target="#aorta"><span class="header-section-number">3.1.1</span> Aorta</a></li>
-  <li><a href="#arterioler" id="toc-arterioler" class="nav-link" data-scroll-target="#arterioler"><span class="header-section-number">3.1.2</span> Arterioler</a></li>
-  <li><a href="#kapillærer" id="toc-kapillærer" class="nav-link" data-scroll-target="#kapillærer"><span class="header-section-number">3.1.3</span> Kapillærer</a></li>
+  <li><a href="#cardiac-output" id="toc-cardiac-output" class="nav-link" data-scroll-target="#cardiac-output"><span class="header-section-number">3.1.1</span> Cardiac output</a></li>
+  <li><a href="#ventrikukære-tilpasninger" id="toc-ventrikukære-tilpasninger" class="nav-link" data-scroll-target="#ventrikukære-tilpasninger"><span class="header-section-number">3.1.2</span> Ventrikukære tilpasninger</a></li>
+  <li><a href="#kontraktilitet" id="toc-kontraktilitet" class="nav-link" data-scroll-target="#kontraktilitet"><span class="header-section-number">3.1.3</span> Kontraktilitet</a></li>
+  <li><a href="#frank-starling-loven" id="toc-frank-starling-loven" class="nav-link" data-scroll-target="#frank-starling-loven"><span class="header-section-number">3.1.4</span> Frank Starling loven</a></li>
   </ul></li>
-  <li><a href="#vener" id="toc-vener" class="nav-link" data-scroll-target="#vener"><span class="header-section-number">3.2</span> Vener</a>
+  <li><a href="#arterier" id="toc-arterier" class="nav-link" data-scroll-target="#arterier"><span class="header-section-number">3.2</span> Arterier</a>
   <ul class="collapse">
-  <li><a href="#vena-cava" id="toc-vena-cava" class="nav-link" data-scroll-target="#vena-cava"><span class="header-section-number">3.2.1</span> Vena cava</a></li>
-  <li><a href="#perfiere-overfladiske-dype-og-pulmonale-vener" id="toc-perfiere-overfladiske-dype-og-pulmonale-vener" class="nav-link" data-scroll-target="#perfiere-overfladiske-dype-og-pulmonale-vener"><span class="header-section-number">3.2.2</span> Perfiere, overfladiske, dype og pulmonale vener</a></li>
+  <li><a href="#aorta" id="toc-aorta" class="nav-link" data-scroll-target="#aorta"><span class="header-section-number">3.2.1</span> Aorta</a></li>
+  <li><a href="#arterioler" id="toc-arterioler" class="nav-link" data-scroll-target="#arterioler"><span class="header-section-number">3.2.2</span> Arterioler</a></li>
+  <li><a href="#kapillærer" id="toc-kapillærer" class="nav-link" data-scroll-target="#kapillærer"><span class="header-section-number">3.2.3</span> Kapillærer</a></li>
   </ul></li>
+  <li><a href="#vener" id="toc-vener" class="nav-link" data-scroll-target="#vener"><span class="header-section-number">3.3</span> Vener</a>
+  <ul class="collapse">
+  <li><a href="#vena-cava" id="toc-vena-cava" class="nav-link" data-scroll-target="#vena-cava"><span class="header-section-number">3.3.1</span> Vena cava</a></li>
+  <li><a href="#perfiere-overfladiske-dype-og-pulmonale-vener" id="toc-perfiere-overfladiske-dype-og-pulmonale-vener" class="nav-link" data-scroll-target="#perfiere-overfladiske-dype-og-pulmonale-vener"><span class="header-section-number">3.3.2</span> Perfiere, overfladiske, dype og pulmonale vener</a></li>
+  </ul></li>
+  <li><a href="#oksygentransport-i-blodet" id="toc-oksygentransport-i-blodet" class="nav-link" data-scroll-target="#oksygentransport-i-blodet"><span class="header-section-number">3.4</span> Oksygentransport i blodet</a>
+  <ul class="collapse">
+  <li><a href="#hemoglobin-hb" id="toc-hemoglobin-hb" class="nav-link" data-scroll-target="#hemoglobin-hb"><span class="header-section-number">3.4.1</span> Hemoglobin (Hb)</a></li>
+  <li><a href="#po2-i-blodet" id="toc-po2-i-blodet" class="nav-link" data-scroll-target="#po2-i-blodet"><span class="header-section-number">3.4.2</span> pO<sub>2</sub> i blodet</a></li>
+  <li><a href="#anemi" id="toc-anemi" class="nav-link" data-scroll-target="#anemi"><span class="header-section-number">3.4.3</span> Anemi</a></li>
+  <li><a href="#po2-og-hb-saturasjon-metning" id="toc-po2-og-hb-saturasjon-metning" class="nav-link" data-scroll-target="#po2-og-hb-saturasjon-metning"><span class="header-section-number">3.4.4</span> pO<sub>2</sub> og Hb-saturasjon (metning)</a></li>
+  <li><a href="#oksyhemoglobin-dissosiasjonsskurven" id="toc-oksyhemoglobin-dissosiasjonsskurven" class="nav-link" data-scroll-target="#oksyhemoglobin-dissosiasjonsskurven"><span class="header-section-number">3.4.5</span> Oksyhemoglobin dissosiasjonsskurven</a></li>
+  </ul></li>
+  <li><a href="#artikler" id="toc-artikler" class="nav-link" data-scroll-target="#artikler"><span class="header-section-number">3.5</span> Artikler</a></li>
   </ul>
 </nav>
     </div>
@@ -194,17 +259,58 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Det kardiovaskulære systemet</figcaption>
 </figure>
 </div>
-<section id="arterier" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="arterier"><span class="header-section-number">3.1</span> Arterier</h2>
-<section id="aorta" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="aorta"><span class="header-section-number">3.1.1</span> Aorta</h3>
+<section id="hjertet" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="hjertet"><span class="header-section-number">3.1</span> Hjertet</h2>
+<section id="cardiac-output" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="cardiac-output"><span class="header-section-number">3.1.1</span> Cardiac output</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/cardiac_output.jpeg" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Cardiac output</figcaption>
+</figure>
+</div>
 </section>
-<section id="arterioler" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="arterioler"><span class="header-section-number">3.1.2</span> Arterioler</h3>
+<section id="ventrikukære-tilpasninger" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="ventrikukære-tilpasninger"><span class="header-section-number">3.1.2</span> Ventrikukære tilpasninger</h3>
+<p>Venstriklene ses å bli større (romme mer volum) som en tilpasning til utholdenhetstrening. Det blir også mer elastisk. Dette resulterer i økt slagvolum. Ved ulike sykdommer kan det så hende at en får en ugunstig hypertrofi av hjertemuskulatur, slik at ventrikkelen minker i volum (muskulatur tar opp plass i ventrikkelen/muskelen vokser innover). Dette kalles gjerne konsentrisk hypertrofi. Ved et slikt tilfelle reduseres slagvolumet. Man har også det en kaller for eksentrisk hypertrofi, der ventrikkelen utvides uten at kontraktiliteten øker.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/hjerte-hypertensjon.jpg" class="img-fluid figure-img"></p>
+<figcaption>Hjertets ventrikler ved hypertensjon og hvilke systemer som påvirker</figcaption>
+</figure>
+</div>
 </section>
-<section id="kapillærer" class="level3" data-number="3.1.3">
-<h3 data-number="3.1.3" class="anchored" data-anchor-id="kapillærer"><span class="header-section-number">3.1.3</span> Kapillærer</h3>
-<div class="quarto-figure quarto-figure-left">
+<section id="kontraktilitet" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="kontraktilitet"><span class="header-section-number">3.1.3</span> Kontraktilitet</h3>
+<p>Hjertets kontraktilitet refererer til evnen hjertemuskulaturen har til å trekke seg sammen og pumpe blod effektivt. Flere mekanismer kan øke kontraktiliteten, som er avgjørende for at hjertet skal kunne tilpasse seg kroppens behov under ulike forhold. En viktig mekanisme for å øke kontraktiliteten er <strong>sympatisk nervestimulering</strong>, som skjer ved fysisk aktivitet eller stress. Når det sympatiske nervesystemet aktiveres, frigjøres <strong>noradrenalin</strong>, som binder seg til <strong>beta-1 adrenerge reseptorer</strong> på hjertemuskelcellene. Dette fører til en økning i nivåene av <strong>cAMP</strong> (cyklisk AMP) i cellen. Økt cAMP aktiverer en kaskade av biokjemiske reaksjoner som resulterer i økt frigjøring av <strong>kalsiumioner (Ca²⁺)</strong> fra sarkoplasmatisk retikulum. Kalsium er essensielt for hjertemuskelens kontraksjon, ettersom det binder seg til <strong>troponin</strong>, som gjør at <strong>aktin</strong> og <strong>myosin</strong> kan danne kryssbroer og generere kraft. Som et resultat får hjertet sterkere sammentrekninger og dermed økt blodpumping, noe som er viktig under stress eller fysisk aktivitet. Denne mekanismen gjør at hjertet kan levere mer blod til organene når behovet for oksygen og næringsstoffer øker.</p>
+</section>
+<section id="frank-starling-loven" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="frank-starling-loven"><span class="header-section-number">3.1.4</span> Frank Starling loven</h3>
+<p>Økt fyllingsgrad av hjertet (økt venøs tilbakestrømning) gir økt strekk på hjertemuskulatur. Dette fører til kraftigere kontraksjon av hjertemuskelen og større slagvolum. Teorien bak er at overlappen mellom aktin- og myosinfilamentene blir mer optimal ved den økte strekken av muskelfibrene, ergo genereres større kraft. Økt blodvolum, som er en tilpasning ved utholdenhetstrening, gir altså økt salgvolum.</p>
+<p>Denne mekaninsmen kan også settes i sving ved sykdom. Ventriklene blir fylt med mer blod, men evner dog ikke svare på den økte fyllingen og strekken av muskulaturen. Dette ender som regel med “kø” i blodårenettverket (eks pulmonal hypertensjon) som igjen resulterer i væskeansamling (ødem/lungeødem) og redusert organfunksjon.</p>
+</section>
+</section>
+<section id="arterier" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="arterier"><span class="header-section-number">3.2</span> Arterier</h2>
+<p>Arterier er blodårer som transporterer oksygenrikt blod fra hjertet til kroppen, unntatt lungearterien. De har tre hovedlag: Tunica intima, som gir en glatt overflate, tunica media, som regulerer blodtrykket gjennom glatt muskulatur og elastiske fibre, og tunica externa, som gir støtte og fleksibilitet. Arteriene er elastiske og tåler høyt trykk, og deres struktur sikrer en jevn blodstrøm til hele kroppen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/arterier.png" class="img-fluid figure-img"></p>
+<figcaption>Arterier</figcaption>
+</figure>
+</div>
+<section id="aorta" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="aorta"><span class="header-section-number">3.2.1</span> Aorta</h3>
+<p><strong>Aorta</strong> er kroppens største arterie og frakter oksygenrikt blod fra venstre hjertekammer til resten av kroppen. Den består av tre hovedsegmenter: <strong>aortabuen</strong>, <strong>aorta descendens</strong> og <strong>abdominalaorta</strong>. Aorta har en tykk og elastisk vegg, spesielt i <strong>tunica media</strong>, som er rikelig med <strong>elastiske fibre</strong>. Dette gir aorta evnen til å strekke seg og trekke seg sammen med hjerteslagene, noe som hjelper til med å opprettholde et jevnt blodtrykk. <strong>Tunica intima</strong> er dekket av et lag <strong>endotelceller</strong> som sikrer en glatt blodstrøm, mens <strong>tunica externa</strong> inneholder bindevev og <strong>vasa vasorum</strong> for å forsyne de ytre lagene med næring. Aorta er utsatt for høyt trykk, spesielt ved hvert hjerteslag, og dens elastisitet spiller en avgjørende rolle i å dempe de trykkbølgene som genereres av hjertets pumpeaktivitet.</p>
+</section>
+<section id="arterioler" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="arterioler"><span class="header-section-number">3.2.2</span> Arterioler</h3>
+<p>Arterioler er de minste greinene av arteriene og har en viktig rolle i å regulere blodstrømmen til kapillærene. De består av tre lag, men er mye tynnere enn større arterier. <strong>Tunica intima</strong> er kledd med et lag <strong>endotelceller</strong> som gir en glatt overflate for blodstrømmen. <strong>Tunica media</strong>, som er den mest utviklede delen i arteriolene, inneholder en høy andel <strong>glatt muskulatur</strong>, som gjør at de kan regulere sin diameter gjennom <strong>vasokonstriksjon</strong> (sammentrekning) og <strong>vasodilatasjon</strong> (utvidelse). Dette gjør arteriolene til viktige regulatorer av blodtrykket og blodstrømmen til spesifikke vev og organer. <strong>Tunica externa</strong>, det ytre laget, er tynt og består hovedsakelig av bindevev. Arteriolene skiller seg fra større arterier ved at de har mindre lumen og en mer muskuløs vegg som kan regulere blodstrømmen mer presist. I motsetning til <strong>kapillærene</strong>, som er de minste blodårene og har veldig tynne vegger for effektiv gass- og næringsutveksling, er arteriolene primært ansvarlige for å regulere trykk og strømning inn i kapillærene.</p>
+</section>
+<section id="kapillærer" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="kapillærer"><span class="header-section-number">3.2.3</span> Kapillærer</h3>
+<p>Kapillærer er de minste og tynneste blodårene i kroppen, og de fungerer som utvekslingssteder for næringsstoffer, gasser og avfallsstoffer mellom blodet og vevet. Kapillærene består kun av ett lag <strong>endotelceller</strong>, som gir en svært tynn og permeabel vegg for at stoffene skal kunne diffundere effektivt. Denne enkle strukturen tillater at oksygen, karbondioksid, næringsstoffer og avfall kan passere fritt mellom blodet og de omkringliggende cellene. I motsetning til <strong>arterier</strong>, som har tykkere vegger for å tåle høyt trykk og transportere blod, har kapillærene svært tynne vegger for å fremme gassutveksling og metabolisme. Kapillærer skiller seg også fra <strong>arterioler</strong>, som har en mer muskuløs vegg og regulerer blodstrømmen til kapillærene ved å endre diameter. Kapillærene, derimot, er primært involvert i utvekslingen av stoffer snarere enn i blodstrømsreguleringen.</p>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="bilder/art.vein.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <figcaption>Arterier og vener</figcaption>
@@ -212,16 +318,99 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="vener" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="vener"><span class="header-section-number">3.2</span> Vener</h2>
-<section id="vena-cava" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="vena-cava"><span class="header-section-number">3.2.1</span> Vena cava</h3>
+<section id="vener" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="vener"><span class="header-section-number">3.3</span> Vener</h2>
+<p>Vener er blodårer som frakter deoksygenert blod tilbake til hjertet, unntatt lungevenene. De har også tre hovedlag, men veggene er tynnere enn i arteriene, med mindre glatt muskulatur og færre elastiske fibre. <strong>Tunica intima</strong> består av endotelceller som gir en glatt overflate, og her finnes også klaffer som hindrer blodet i å renne bakover, spesielt i de nedre ekstremitetene. <strong>Tunica media</strong> er tynnere enn i arteriene og inneholder mindre glatt muskulatur, mens <strong>tunica externa</strong> består av bindevev som gir strukturell støtte. Vener har større lumen enn arterier, og deres tynnere vegger gjør dem mer utsatt for kollaps under lavt trykk. De fungerer som blodreservoarer og spiller en viktig rolle i å returnere blodet til hjertet for videre sirkulasjon.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/veneklaff.png" class="img-fluid figure-img"></p>
+<figcaption>Veneklaffsystemet</figcaption>
+</figure>
+</div>
+<section id="vena-cava" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="vena-cava"><span class="header-section-number">3.3.1</span> Vena cava</h3>
+<p>Vena cava består av to hovedårer: vena cava superior og vena cava inferior, som er de største venene i kroppen. Vena cava superior samler deoksygenert blod fra den øvre delen av kroppen, inkludert hodet, halsen, armene og øvre thorax, og leder det til høyre atrium i hjertet. Vena cava inferior, derimot, transporterer blod fra den nedre delen av kroppen, inkludert beina, bekkenet og abdomen, til høyre atrium. Begge venene er avgjørende for returen av blod til hjertet, hvor det deretter pumpes til lungene for oksygenering. Vena cava har store lumen og tynnere vegger enn arteriene, og fungerer som blodreservoarer med lavt trykk. Begge venene er også forbundet med vasa vasorum, små blodårer som gir næring til de ytre lagene i venens vegg.</p>
 </section>
-<section id="perfiere-overfladiske-dype-og-pulmonale-vener" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="perfiere-overfladiske-dype-og-pulmonale-vener"><span class="header-section-number">3.2.2</span> Perfiere, overfladiske, dype og pulmonale vener</h3>
+<section id="perfiere-overfladiske-dype-og-pulmonale-vener" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="perfiere-overfladiske-dype-og-pulmonale-vener"><span class="header-section-number">3.3.2</span> Perfiere, overfladiske, dype og pulmonale vener</h3>
+<p>Perifere, overfladiske, dype og pulmonale vener har spesifikke roller i sirkulasjonssystemet. Perifere vener finnes i armer og ben og fungerer som kanaler for returblodet til hjertet. Overfladiske vener ligger nær hudens overflate og er synlige, og de leder blod fra huden og subkutant vev til dypere vener. Dype vener, som ligger dypere i musklene og omkringliggende vev, transporterer blod fra de større muskelgruppene tilbake til hjertet og har et mer uttalt klaffesystem for å hindre tilbakestrømning av blod. De største dype venene finnes i bena, som vena femoralis og vena poplitea. Pulmonale vener er de spesifikke venene som frakter oksygenrikt blod fra lungene til venstre atrium i hjertet, en viktig funksjon i blodets oksygeneringssyklus. Pulmonale vener skiller seg fra andre vener ved at de transporterer oksygenert blod i stedet for deoksygenert blod.</p>
+</section>
+</section>
+<section id="oksygentransport-i-blodet" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="oksygentransport-i-blodet"><span class="header-section-number">3.4</span> Oksygentransport i blodet</h2>
+<section id="hemoglobin-hb" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="hemoglobin-hb"><span class="header-section-number">3.4.1</span> Hemoglobin (Hb)</h3>
+<p>Hos menn inneholder hver dl blod ~ 15 g Hb<span class="citation" data-cites="mcardle2015"><sup><a href="#ref-mcardle2015" role="doc-biblioref">1</a></sup></span>. Kvinner har ca. 5-10 % mindre enn menn, altså ~ 14 g. Testosteron er årsak til at menn har mer enn kvinner. Hvert gram Hb binder ~ 1.34 ml O<sub>2</sub><span class="citation" data-cites="mcardle2015"><sup><a href="#ref-mcardle2015" role="doc-biblioref">1</a></sup></span>. Hemoglobinmolekylet består av fire <em>globin</em>-underenheter, hver med en polypeptidkjede. Hver globin-enhet har en <em>heme</em>-gruppe som inneholder ett <em>jernatom</em>, som binder oksygen (O₂).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/Hb.jpg" class="img-fluid figure-img"></p>
+<figcaption>Hemoglobinmolekylet</figcaption>
+</figure>
+</div>
+<p>Med likningen under kan man beregne O<sub>2</sub> kapasiteten til blodet (O<sub>2(cap)</sub>):</p>
+<p><span class="math inline">\(0_{2(cap)} = Hb \times O_{2(Hb-cap)}\)</span></p>
+<p><span class="math inline">\(20 \frac{ml}{dl} = 15 \frac{g}{dl} \times 1.34 \frac{ml}{g}\)</span></p>
+</section>
+<section id="po2-i-blodet" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="po2-i-blodet"><span class="header-section-number">3.4.2</span> pO<sub>2</sub> i blodet</h3>
+<p>Ved havnivå er det arterielle oksygentrykket (pO₂) omkring 75-100 mmHg for en frisk person. Dette refererer til partialtrykket av oksygen i blodet. Det sier også noe om effektiviteten av oksygendiffusjon fra alveolene (lungenes små luftblærer) til blodet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/po2-blod.jpg" class="img-fluid figure-img"></p>
+<figcaption>pO<sub>2</sub> gjennom sirkulasjonssystemet</figcaption>
+</figure>
+</div>
+</section>
+<section id="anemi" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="anemi"><span class="header-section-number">3.4.3</span> Anemi</h3>
+<p>Ved betydelig reduksjon av jern i de røde blodcellene observeres tydelig reduksjon i prestasjonsparametre og selv lett aktivitet kan føles krevende.</p>
+</section>
+<section id="po2-og-hb-saturasjon-metning" class="level3" data-number="3.4.4">
+<h3 data-number="3.4.4" class="anchored" data-anchor-id="po2-og-hb-saturasjon-metning"><span class="header-section-number">3.4.4</span> pO<sub>2</sub> og Hb-saturasjon (metning)</h3>
+<p>Hb-molekylet har relativt lav affinitet for oksygen når jernatomene står uten oksygenmolekyler. Men når ett oksygen binder seg til én av de fire mulige plassene økes affiniteten til Hb-molekylet og gjør at de resterende plassene fylles opp lettere. Dette fenomenet er kjent som <em>cooperative bindig</em> (kooperativ binding). Dette forklarer kurven vi nå skal se på, <em>oksyhemoglobin dissosiasjonsskurven</em> og hvorfor den har den formen den har.</p>
+</section>
+<section id="oksyhemoglobin-dissosiasjonsskurven" class="level3" data-number="3.4.5">
+<h3 data-number="3.4.5" class="anchored" data-anchor-id="oksyhemoglobin-dissosiasjonsskurven"><span class="header-section-number">3.4.5</span> Oksyhemoglobin dissosiasjonsskurven</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bilder/o2hb-diss-curve.jpg" class="img-fluid figure-img"></p>
+<figcaption>Oksyhemoglobin dissosiasjonskurven</figcaption>
+</figure>
+</div>
+<p>Den S-formede strukturen (sigmoidale formen) på O<sub>2</sub>-Hb diss-kurven er typisk. Dette fordi, som nevn i forrige avnsitt, Hb lettere binder O<sub>2</sub> når det er mer tilgjengelig. Ved høyere temperaturer, økt konsentrasjon av H<sup>+</sup>-ioner og 2-3 DPG, ser man en høyreforskyvning av kurven (%saturasjon er lavere enn ved normalt trykk). Og motsatt ser en høyere %saturasjon ved normalt trykk når temperaturen synker, lave nivåer av H<sup>+</sup> og 2-3 DPG.</p>
+</section>
+</section>
+<section id="artikler" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="artikler"><span class="header-section-number">3.5</span> Artikler</h2>
+<ul>
+<li><p>Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training<span class="citation" data-cites="montero2015"><sup><a href="#ref-montero2015" role="doc-biblioref">2</a></sup></span>.</p></li>
+<li><p>Phlebotomy eliminates the maximal cardiac output response to six weeks of exercise training<span class="citation" data-cites="bonne2014"><sup><a href="#ref-bonne2014" role="doc-biblioref">3</a></sup></span>.</p></li>
+<li><p>The Oxygen Cascade During Exercise in Health and Disease<span class="citation" data-cites="dominelli2021"><sup><a href="#ref-dominelli2021" role="doc-biblioref">4</a></sup></span>.</p></li>
+<li><p>Increased maximal oxygen uptake after sprint-interval training is mediated by central haemodynamic factors as determined by right heart catheterization<span class="citation" data-cites="mandic2023"><sup><a href="#ref-mandic2023" role="doc-biblioref">5</a></sup></span>.</p></li>
+<li><p>Blood volume expansion does not explain the increase in peak oxygen uptake induced by 10 weeks of endurance training<span class="citation" data-cites="skattebo2020"><sup><a href="#ref-skattebo2020" role="doc-biblioref">6</a></sup></span>.</p></li>
+</ul>
 
 
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-mcardle2015" class="csl-entry" role="listitem">
+1. McArdle, W. D., Katch, F. I., &amp; Katch, V. L. (2015). <em>Exercise <span>Physiology</span>: <span>Nutrition</span>, <span>Energy</span>, and <span>Human</span> <span>Performance</span></em>. Wolters Kluwer Health/Lippincott Williams &amp; Wilkins.
+</div>
+<div id="ref-montero2015" class="csl-entry" role="listitem">
+2. Montero, D., Cathomen, A., Jacobs, R. A., Flück, D., Leur, J. de, Keiser, S., Bonne, T., Kirk, N., Lundby, A.-K., &amp; Lundby, C. (2015). Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training. <em>The Journal of Physiology</em>, <em>593</em>(20), 4677–4688. <a href="https://doi.org/10.1113/JP270250">https://doi.org/10.1113/JP270250</a>
+</div>
+<div id="ref-bonne2014" class="csl-entry" role="listitem">
+3. Bonne, T. C., Doucende, G., Flück, D., Jacobs, R. A., Nordsborg, N. B., Robach, P., Walther, G., &amp; Lundby, C. (2014). Phlebotomy eliminates the maximal cardiac output response to six weeks of exercise training. <em>American Journal of Physiology. Regulatory, Integrative and Comparative Physiology</em>, <em>306</em>(10), R752–760. <a href="https://doi.org/10.1152/ajpregu.00028.2014">https://doi.org/10.1152/ajpregu.00028.2014</a>
+</div>
+<div id="ref-dominelli2021" class="csl-entry" role="listitem">
+4. Dominelli, P. B., Wiggins, C. C., Roy, T. K., Secomb, T. W., Curry, T. B., &amp; Joyner, M. J. (2021). The <span>Oxygen</span> <span>Cascade</span> <span>During</span> <span>Exercise</span> in <span>Health</span> and <span>Disease</span>. <em>Mayo Clinic Proceedings</em>, <em>96</em>(4), 1017–1032. <a href="https://doi.org/10.1016/j.mayocp.2020.06.063">https://doi.org/10.1016/j.mayocp.2020.06.063</a>
+</div>
+<div id="ref-mandic2023" class="csl-entry" role="listitem">
+5. Mandić, M., Eriksson, L. M. J., Melin, M., Skott, V., Sundblad, P., Gustafsson, T., &amp; Rullman, E. (2023). Increased maximal oxygen uptake after sprint-interval training is mediated by central haemodynamic factors as determined by right heart catheterization. <em>The Journal of Physiology</em>, <em>601</em>(12), 2359–2370. <a href="https://doi.org/10.1113/JP283807">https://doi.org/10.1113/JP283807</a>
+</div>
+<div id="ref-skattebo2020" class="csl-entry" role="listitem">
+6. Skattebo, Ø., Bjerring, A. W., Auensen, M., Sarvari, S. I., Cumming, K. T., Capelli, C., &amp; Hallén, J. (2020). Blood volume expansion does not explain the increase in peak oxygen uptake induced by 10&nbsp;weeks of endurance training. <em>European Journal of Applied Physiology</em>, <em>120</em>(5), 985–999. <a href="https://doi.org/10.1007/s00421-020-04336-2">https://doi.org/10.1007/s00421-020-04336-2</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

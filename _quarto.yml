@@ -13,8 +13,8 @@ book:
     - 04-utholdenhetstrening.qmd
     - referanser.qmd
 bibliography: 
-  - referanser/muskelfysiologi.bib
-  - referanser/cardio.bib
+  - referanser/muskfys.bib
+  - referanser/cardio-system.bib
   - referanser/utholdenhet.bib
 csl: referanser/style.csl
 format: 

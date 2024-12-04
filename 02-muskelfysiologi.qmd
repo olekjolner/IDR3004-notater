@@ -2,7 +2,7 @@
 title: "Muskelfysiologi II"
 editor_options: 
   chunk_output_type: console
-bibliography: referanser/muskelfysiologi.bib
+bibliography: referanser/muskfys.bib
 ---
 
 ## Muskulære tilpasninger til aktivitetsnivå
@@ -184,6 +184,6 @@ Styrketrening fører til betydelige fysiske tilpasninger, spesielt når man er u
 Styrketrening kan også endre **muskelfiberlengde**, inkludert endringer i fasikkelvinkel, som indikerer tilpasning i muskelfunksjon. **Nevral drive** forbedres ved at EMG-signalet øker, flere motoriske enheter aktiveres, og fyringsfrekvensen økes, noe som fører til bedre muskelaktivering, spesielt i eksplosive bevegelser. I tillegg skjer det endringer i kontraktile proteiner, cellekjerner, og organeller som sarcoplasmatisk retikulum (SR), som forbedrer muskelens evne til å håndtere kalsium og utføre kraftige sammentrekninger. Det kan også forekomme **fibertypeoverganger** og endringer i bindevev og cytoskjelettet.
 
 ## Artikler
-* Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@Egan2023]
+* Molecular Responses To Acute Exercise And Their Relevance For Adaptations In Skeletal Muscle To Exercise Training [@egan2023]
 
-* Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@Roberts2023]
+* Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions [@roberts2023]
