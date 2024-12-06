@@ -77,6 +77,18 @@ $0_{2(cap)} = Hb \times O_{2(Hb-cap)}$
 
 $20 \frac{ml}{dl} = 15 \frac{g}{dl} \times 1.34 \frac{ml}{g}$
 
+### Måling av Hb
+
+Mengden røde blodceller i kroppen kan uttrykkes på forskjellige måter, og de mest brukte målingene er **Hb-konsentrasjon**, **hematokrit (Hct)** og **Hb-masse**.
+
+**Hb-konsentrasjon** (hemoglobinkonsentrasjon) refererer til mengden hemoglobin (Hb) per enhet blodvolum, vanligvis angitt i gram per desiliter (g/dl). Dette måler hvor mye Hb som er tilstede i blodet, men det gir ikke nødvendigvis en presis indikasjon på den totale mengden Hb i kroppen, da den er avhengig av blodvolumet. **Plasmavolumet** kan påvirke denne verdien, for eksempel ved dehydrering, som kan føre til en høyere konsentrasjon uten en faktisk økning i Hb-mengden.
+
+**Hematokrit (Hct)** refererer til andelen av blodvolumet som består av røde blodceller og uttrykkes vanligvis som en prosentandel. Som med Hb-konsentrasjon, kan hematokrit påvirkes av endringer i plasmavolumet, slik som ved væsketap eller økt væskeinntak.
+
+**Hb-masse** refererer til den totale mengden hemoglobin i kroppen, vanligvis uttrykt i gram. Dette er et mer direkte mål på hvor mye Hb som faktisk er tilstede i blodet og kan gi en mer nøyaktig vurdering av kroppens evne til å frakte oksygen. Hb-masse påvirkes ikke av plasmavolum på samme måte som Hb-konsentrasjon og hematokrit.
+
+For å måle **Hb-massen** i kroppen, inhaleres en kjent mengde **karbonmonoksid (CO)**, som binder seg til hemoglobin (Hb). CO har en langt høyere affinitet for hemegruppene i hemoglobin enn oksygen (O₂). Ved å måle hvor mye CO som binder seg til hemoglobin, kan man beregne den totale mengden hemoglobin i kroppen, samt det totale blodvolumet.
+
 ### pO~2~ i blodet
 
 Ved havnivå er det arterielle oksygentrykket (pO₂) omkring 75-100 mmHg for en frisk person. Dette refererer til partialtrykket av oksygen i blodet. Det sier også noe om effektiviteten av oksygendiffusjon fra alveolene (lungenes små luftblærer) til blodet.

@@ -384,7 +384,7 @@
     "href": "03-cardiovasc.html#oksygentransport-i-blodet",
     "title": "3  Det kardiovaskulære systemet",
     "section": "3.4 Oksygentransport i blodet",
-    "text": "3.4 Oksygentransport i blodet\n\n3.4.1 Hemoglobin (Hb)\nHos menn inneholder hver dl blod ~ 15 g Hb1. Kvinner har ca. 5-10 % mindre enn menn, altså ~ 14 g. Testosteron er årsak til at menn har mer enn kvinner. Hvert gram Hb binder ~ 1.34 ml O21. Hemoglobinmolekylet består av fire globin-underenheter, hver med en polypeptidkjede. Hver globin-enhet har en heme-gruppe som inneholder ett jernatom, som binder oksygen (O₂).\n\n\n\nHemoglobinmolekylet\n\n\nMed likningen under kan man beregne O2 kapasiteten til blodet (O2(cap)):\n\\(0_{2(cap)} = Hb \\times O_{2(Hb-cap)}\\)\n\\(20 \\frac{ml}{dl} = 15 \\frac{g}{dl} \\times 1.34 \\frac{ml}{g}\\)\n\n\n3.4.2 pO2 i blodet\nVed havnivå er det arterielle oksygentrykket (pO₂) omkring 75-100 mmHg for en frisk person. Dette refererer til partialtrykket av oksygen i blodet. Det sier også noe om effektiviteten av oksygendiffusjon fra alveolene (lungenes små luftblærer) til blodet.\n\n\n\npO2 gjennom sirkulasjonssystemet\n\n\n\n\n3.4.3 Anemi\nVed betydelig reduksjon av jern i de røde blodcellene observeres tydelig reduksjon i prestasjonsparametre og selv lett aktivitet kan føles krevende.\n\n\n3.4.4 pO2 og Hb-saturasjon (metning)\nHb-molekylet har relativt lav affinitet for oksygen når jernatomene står uten oksygenmolekyler. Men når ett oksygen binder seg til én av de fire mulige plassene økes affiniteten til Hb-molekylet og gjør at de resterende plassene fylles opp lettere. Dette fenomenet er kjent som cooperative bindig (kooperativ binding). Dette forklarer kurven vi nå skal se på, oksyhemoglobin dissosiasjonsskurven og hvorfor den har den formen den har.\n\n\n3.4.5 Oksyhemoglobin dissosiasjonsskurven\n\n\n\nOksyhemoglobin dissosiasjonskurven\n\n\nDen S-formede strukturen (sigmoidale formen) på O2-Hb diss-kurven er typisk. Dette fordi, som nevn i forrige avnsitt, Hb lettere binder O2 når det er mer tilgjengelig. Ved høyere temperaturer, økt konsentrasjon av H+-ioner og 2-3 DPG, ser man en høyreforskyvning av kurven (%saturasjon er lavere enn ved normalt trykk). Og motsatt ser en høyere %saturasjon ved normalt trykk når temperaturen synker, lave nivåer av H+ og 2-3 DPG.",
+    "text": "3.4 Oksygentransport i blodet\n\n3.4.1 Hemoglobin (Hb)\nHos menn inneholder hver dl blod ~ 15 g Hb1. Kvinner har ca. 5-10 % mindre enn menn, altså ~ 14 g. Testosteron er årsak til at menn har mer enn kvinner. Hvert gram Hb binder ~ 1.34 ml O21. Hemoglobinmolekylet består av fire globin-underenheter, hver med en polypeptidkjede. Hver globin-enhet har en heme-gruppe som inneholder ett jernatom, som binder oksygen (O₂).\n\n\n\nHemoglobinmolekylet\n\n\nMed likningen under kan man beregne O2 kapasiteten til blodet (O2(cap)):\n\\(0_{2(cap)} = Hb \\times O_{2(Hb-cap)}\\)\n\\(20 \\frac{ml}{dl} = 15 \\frac{g}{dl} \\times 1.34 \\frac{ml}{g}\\)\n\n\n3.4.2 Måling av Hb\nMengden røde blodceller i kroppen kan uttrykkes på forskjellige måter, og de mest brukte målingene er Hb-konsentrasjon, hematokrit (Hct) og Hb-masse.\nHb-konsentrasjon (hemoglobinkonsentrasjon) refererer til mengden hemoglobin (Hb) per enhet blodvolum, vanligvis angitt i gram per desiliter (g/dl). Dette måler hvor mye Hb som er tilstede i blodet, men det gir ikke nødvendigvis en presis indikasjon på den totale mengden Hb i kroppen, da den er avhengig av blodvolumet. Plasmavolumet kan påvirke denne verdien, for eksempel ved dehydrering, som kan føre til en høyere konsentrasjon uten en faktisk økning i Hb-mengden.\nHematokrit (Hct) refererer til andelen av blodvolumet som består av røde blodceller og uttrykkes vanligvis som en prosentandel. Som med Hb-konsentrasjon, kan hematokrit påvirkes av endringer i plasmavolumet, slik som ved væsketap eller økt væskeinntak.\nHb-masse refererer til den totale mengden hemoglobin i kroppen, vanligvis uttrykt i gram. Dette er et mer direkte mål på hvor mye Hb som faktisk er tilstede i blodet og kan gi en mer nøyaktig vurdering av kroppens evne til å frakte oksygen. Hb-masse påvirkes ikke av plasmavolum på samme måte som Hb-konsentrasjon og hematokrit.\nFor å måle Hb-massen i kroppen, inhaleres en kjent mengde karbonmonoksid (CO), som binder seg til hemoglobin (Hb). CO har en langt høyere affinitet for hemegruppene i hemoglobin enn oksygen (O₂). Ved å måle hvor mye CO som binder seg til hemoglobin, kan man beregne den totale mengden hemoglobin i kroppen, samt det totale blodvolumet.\n\n\n3.4.3 pO2 i blodet\nVed havnivå er det arterielle oksygentrykket (pO₂) omkring 75-100 mmHg for en frisk person. Dette refererer til partialtrykket av oksygen i blodet. Det sier også noe om effektiviteten av oksygendiffusjon fra alveolene (lungenes små luftblærer) til blodet.\n\n\n\npO2 gjennom sirkulasjonssystemet\n\n\n\n\n3.4.4 Anemi\nVed betydelig reduksjon av jern i de røde blodcellene observeres tydelig reduksjon i prestasjonsparametre og selv lett aktivitet kan føles krevende.\n\n\n3.4.5 pO2 og Hb-saturasjon (metning)\nHb-molekylet har relativt lav affinitet for oksygen når jernatomene står uten oksygenmolekyler. Men når ett oksygen binder seg til én av de fire mulige plassene økes affiniteten til Hb-molekylet og gjør at de resterende plassene fylles opp lettere. Dette fenomenet er kjent som cooperative bindig (kooperativ binding). Dette forklarer kurven vi nå skal se på, oksyhemoglobin dissosiasjonsskurven og hvorfor den har den formen den har.\n\n\n3.4.6 Oksyhemoglobin dissosiasjonsskurven\n\n\n\nOksyhemoglobin dissosiasjonskurven\n\n\nDen S-formede strukturen (sigmoidale formen) på O2-Hb diss-kurven er typisk. Dette fordi, som nevn i forrige avnsitt, Hb lettere binder O2 når det er mer tilgjengelig. Ved høyere temperaturer, økt konsentrasjon av H+-ioner og 2-3 DPG, ser man en høyreforskyvning av kurven (%saturasjon er lavere enn ved normalt trykk). Og motsatt ser en høyere %saturasjon ved normalt trykk når temperaturen synker, lave nivåer av H+ og 2-3 DPG.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Det kardiovaskulære systemet</span>"
     ]
@@ -397,6 +397,76 @@
     "text": "3.5 Artikler\n\nHaematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training2.\nPhlebotomy eliminates the maximal cardiac output response to six weeks of exercise training3.\nThe Oxygen Cascade During Exercise in Health and Disease4.\nIncreased maximal oxygen uptake after sprint-interval training is mediated by central haemodynamic factors as determined by right heart catheterization5.\nBlood volume expansion does not explain the increase in peak oxygen uptake induced by 10 weeks of endurance training6.\n\n\n\n\n\n1. McArdle, W. D., Katch, F. I., & Katch, V. L. (2015). Exercise Physiology: Nutrition, Energy, and Human Performance. Wolters Kluwer Health/Lippincott Williams & Wilkins.\n\n\n2. Montero, D., Cathomen, A., Jacobs, R. A., Flück, D., Leur, J. de, Keiser, S., Bonne, T., Kirk, N., Lundby, A.-K., & Lundby, C. (2015). Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training. The Journal of Physiology, 593(20), 4677–4688. https://doi.org/10.1113/JP270250\n\n\n3. Bonne, T. C., Doucende, G., Flück, D., Jacobs, R. A., Nordsborg, N. B., Robach, P., Walther, G., & Lundby, C. (2014). Phlebotomy eliminates the maximal cardiac output response to six weeks of exercise training. American Journal of Physiology. Regulatory, Integrative and Comparative Physiology, 306(10), R752–760. https://doi.org/10.1152/ajpregu.00028.2014\n\n\n4. Dominelli, P. B., Wiggins, C. C., Roy, T. K., Secomb, T. W., Curry, T. B., & Joyner, M. J. (2021). The Oxygen Cascade During Exercise in Health and Disease. Mayo Clinic Proceedings, 96(4), 1017–1032. https://doi.org/10.1016/j.mayocp.2020.06.063\n\n\n5. Mandić, M., Eriksson, L. M. J., Melin, M., Skott, V., Sundblad, P., Gustafsson, T., & Rullman, E. (2023). Increased maximal oxygen uptake after sprint-interval training is mediated by central haemodynamic factors as determined by right heart catheterization. The Journal of Physiology, 601(12), 2359–2370. https://doi.org/10.1113/JP283807\n\n\n6. Skattebo, Ø., Bjerring, A. W., Auensen, M., Sarvari, S. I., Cumming, K. T., Capelli, C., & Hallén, J. (2020). Blood volume expansion does not explain the increase in peak oxygen uptake induced by 10 weeks of endurance training. European Journal of Applied Physiology, 120(5), 985–999. https://doi.org/10.1007/s00421-020-04336-2",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Det kardiovaskulære systemet</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html",
+    "href": "04-mitokondrier.html",
+    "title": "4  Mitokondrier",
+    "section": "",
+    "text": "4.1 Hvorfor trenger vi mitokondrier?\nDet er de organellene som produserer ATP, altså den energiformen omtrent alle cellene i kroppen er avhengige av for å opprettholde sin funksjon. Maten vi spiser lagres som glukose i blodbanen. Cellene bryter ned gukosemolekyler i cytosol, før produktene av denne rx vandrer inn i mitokondrien og gjennomgår sitronsyresyklus dersom O2 er tilstede. Siste del av celleåndingen er elektrontransportkjeden der mesteparten av ATP-molekylene dannes. Energiomsetningen (celleåndingen) beskrives ytterligere i avsnittet under.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#energiomsetning",
+    "href": "04-mitokondrier.html#energiomsetning",
+    "title": "4  Mitokondrier",
+    "section": "4.2 Energiomsetning",
+    "text": "4.2 Energiomsetning\nGlykolysen\n\nDette er den første fasen av nedbrytningen av glukose, og den skjer i cytosol, utenfor mitokondriene. I glykolysen brytes ett molekyl glukose (6 karbonatomer) ned til to molekyler pyruvat (3 karbonatomer hver). Denne prosessen gir et nettoutbytte på 2 ATP-molekyler og 2 NADH-molekyler, som senere kan brukes til ATP-produksjon i mitokondriene.\n\n\n\n\nGlykolysen illustrert\n\n\nSitronsyresyklus\n\nEtter glykolysen blir pyruvat transportert inn i mitokondriene, hvor det omdannes til acetyl-CoA før det går inn i sitronsyresyklusen. Denne syklusen skjer i mitokondriens matrix, og her blir acetyl-CoA fullstendig oksidert. Under syklusen produseres 3 NADH, 1 FADH2, og 1 ATP (eller GTP) per syklus, samt CO2 som et biprodukt.\n\n\n\n\nKrebs syklus\n\n\nElektrontransportkjeden\n\nDe elektroner som er samlet opp i NADH og FADH2, blir deretter transportert gjennom elektrontransportkjeden, som skjer i den indre membranen i mitokondriene. Elektronene passerer gjennom en serie av proteinkomplekser, og denne prosessen skaper en proton (H+) gradient over den indre mitokondriemembranen. Denne gradienten driver ATP-syntase til å produsere ATP. Oksygen fungerer som den endelige elektronakseptoren i kjeden, og sammen med protonene danner det vann (H2O).\n\n\n\n\nETK",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#tilpasninger-til-trening",
+    "href": "04-mitokondrier.html#tilpasninger-til-trening",
+    "title": "4  Mitokondrier",
+    "section": "4.6 Tilpasninger til trening",
+    "text": "4.6 Tilpasninger til trening\nEtter utholdenhetstrening øker antallet mitokondrier i muskelcellene, ettersom cellene tilpasser seg høyere energibehov. Flere mitokondrier betyr at kroppen kan produsere mer energi, spesielt i aktiviteter som krever langvarig innsats. Mitokondriene vokser i tykkelse som en tidlig tilpasning til trening. Dette innebærer at hver mitokondrie får større kapasitet til å produsere ATP. Senere kan mitokondriene også vokse i lengde, noe som kan øke overflaten for de reaksjonene som skjer i mitokondriene, spesielt i den indre membranen, der elektrontransportkjeden finner sted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#treningsvolum-vs-treningsintensitet",
+    "href": "04-mitokondrier.html#treningsvolum-vs-treningsintensitet",
+    "title": "4  Mitokondrier",
+    "section": "4.7 Treningsvolum vs Treningsintensitet",
+    "text": "4.7 Treningsvolum vs Treningsintensitet\nBegge er viktig for å utvikle mitokondriene1.\n\n\n\n\n1. Mølmen, K. S., Almquist, N. W., & Skattebo, Ø. (2024). Effects of Exercise Training on Mitochondrial and Capillary Growth in Human Skeletal Muscle: A Systematic Review and Meta-Regression. Sports Medicine (Auckland, N.Z.). https://doi.org/10.1007/s40279-024-02120-2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#oksygenopptak",
+    "href": "04-mitokondrier.html#oksygenopptak",
+    "title": "4  Mitokondrier",
+    "section": "4.3 Oksygenopptak",
+    "text": "4.3 Oksygenopptak\n\\(\\dot{V}O_{2max}\\) er det maksimale mengden O2 kroppen evner å ta opp og utnytte ved maksimalt anstrengende arbeid. Det er et slags mål på hvor godt kroppen evner å frakte O2 ut til arbeidende muskulatur og hvor godt mitokondriene evner å nyttiggjøre seg av oksygenet. En \\(\\dot{V}O_{2max}\\) test er altså et mål på hvor kroppens evne til å bruke O2 og produsere ATP.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#rolle-i-o2-tranporten-og-utilisering",
+    "href": "04-mitokondrier.html#rolle-i-o2-tranporten-og-utilisering",
+    "title": "4  Mitokondrier",
+    "section": "4.4 Rolle i O2 tranporten og utilisering",
+    "text": "4.4 Rolle i O2 tranporten og utilisering\n\n\n\nMitokndrienes rolle i bruken av O2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
+    ]
+  },
+  {
+    "objectID": "04-mitokondrier.html#co-enzymer",
+    "href": "04-mitokondrier.html#co-enzymer",
+    "title": "4  Mitokondrier",
+    "section": "4.5 Co-enzymer",
+    "text": "4.5 Co-enzymer\n\n\n\nCo-enzymer",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mitokondrier</span>"
     ]
   }
 ]

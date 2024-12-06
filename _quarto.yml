@@ -10,12 +10,12 @@ book:
     - 01-muskelfysiologi.qmd
     - 02-muskelfysiologi.qmd
     - 03-cardiovasc.qmd
-    - 04-utholdenhetstrening.qmd
+    - 04-mitokondrier.qmd
     - referanser.qmd
 bibliography: 
   - referanser/muskfys.bib
   - referanser/cardio-system.bib
-  - referanser/utholdenhet.bib
+  - referanser/mitokondrier.bib
 csl: referanser/style.csl
 format: 
   html:
